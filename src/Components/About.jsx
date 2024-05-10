@@ -1,6 +1,6 @@
 import "./about.css";
 
-function Card(){
+function Card() {
     const myInfo = {
         nombre: "Ma. Azucena Peredo Aguilar",
         formacion: "Lic. en Biología // MRes en Tecnología Biomolecular // Java Full Stack Developer",
@@ -9,14 +9,14 @@ function Card(){
     };
     return (
         <div className="cardP">
-            <img src="../assets/foto Monet (1).jpeg" width="200px" height="200px"></img>
+            <img src="/foto Monet.jpeg" width="270px" height="200px"></img>
             <h2>{myInfo.nombre}</h2>
             <h5>{myInfo.contacto}</h5>
             <h6>{myInfo.formacion}</h6>
             <p>{myInfo.descripcion}</p>
         </div>
     )
-    
+
 }
 
 export default Card;
